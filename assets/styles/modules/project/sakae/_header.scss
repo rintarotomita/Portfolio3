@@ -1,0 +1,75 @@
+@use "../../layout/variable2" as *;
+
+.sakae-header {
+    margin-top: 70px;
+    margin-left: 100px;
+
+    .Works-title {
+        color: #fff;
+        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+        ;
+        font-size: 50px;
+        display: flex;
+    }
+
+    .title1 {
+        font-weight: 700;
+    }
+
+    .sitemap1 {
+        margin-top: 35px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 100px;
+
+    }
+
+    .sitemap2 {
+        margin-top: 35px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Hiragino Sans", sans-serif;
+    }
+}
+
+.mockup {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:480px) {
+    .sakae-header {
+        margin-top: 50px;
+        margin-left: 50px;
+
+        .Works-title {
+            font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+            ;
+            font-size: 20px;
+
+            .title1 {
+                font-size: 13px;
+                font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+                ;
+            }
+
+            .sitemap1 {
+                font-size: 10px;
+                margin-top: 5px;
+            }
+
+            .sitemap2 {
+                font-size: 10px;
+                margin-top: 5px;
+            }
+        }
+    }
+    .mockup {
+        text-align: center;
+        margin-top: 20px;
+
+        img {
+            width: 350px;
+        }
+    }
+}

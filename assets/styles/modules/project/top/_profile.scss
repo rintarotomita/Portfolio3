@@ -1,0 +1,78 @@
+@use "../../layout/variable" as *;
+
+.profile-box{
+    border-top: 1px solid #fff;
+    display: flex;
+    .profile-box2{
+        border-right: 1px solid #fff;
+        .profile-title{
+            color: #fff;
+            margin-top: 70px;
+            margin-left: 100px;
+            font-size: 50px;
+            font-weight: 700;
+            font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;;
+        }
+        .profile-content{
+            margin-right: 100px;
+            margin-left: 100px;
+            font-family: "Hiragino Sans", sans-serif;
+            color: #fff;
+            .Scholl-text{
+                margin-top: 30px;
+                font-size: 25px;
+            }
+            .Name{
+                margin-top: 30px;
+                font-size: 25px;
+            }
+            .profile-text{
+                margin-top: 30px;
+                margin-bottom: 70px;
+                font-size: 17px;
+            }
+        }
+    }
+    .profile-img{
+        margin-top: 70px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .profile-box{
+        .profile-box2{
+            .profile-title{
+                margin-left: 50px;
+                margin-top: 50px;
+                font-size: 20px;
+            }
+            .profile-content{
+                margin-left: 50px;
+                margin-right: 15px;
+                .Scholl-text{
+                    font-size: 10px;
+                    margin-top: 10px;
+                }
+                .Name{
+                    font-size: 10px;
+                    margin-top: 10px;
+                }
+                .profile-text{
+                    margin-top: 10px;
+                    font-size: 6px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .profile-img{
+            margin-left: 60px;
+            margin-top: 50px;
+
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}

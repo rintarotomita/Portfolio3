@@ -1,0 +1,347 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8d8b8b;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+ul a,
+li a {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: inherit;
+}
+ul a:hover,
+li a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.header {
+  margin-top: 70px;
+}
+.header .works-title {
+  display: flex;
+  margin-left: 100px;
+  color: #fff;
+}
+.header .works-title .title1 {
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-right: 100px;
+}
+.header .works-title .sitemap1 {
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.header .works-title .sitemap2 {
+  font-size: 20px;
+  margin-top: 35px;
+  font-family: "Hiragino Sans", sans-serif;
+}
+
+.mockup {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .header .works-title {
+    font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .header .works-title .title1 {
+    font-size: 13px;
+    font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+    margin-right: 50px;
+  }
+  .header .works-title .sitemap1 {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .header .works-title .sitemap2 {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .mockup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mockup img {
+    width: 350px;
+  }
+}
+.text-content .tag {
+  color: #fff;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 290px;
+  border: solid 2px #fff;
+  width: 200px;
+  text-align: center;
+}
+
+.tool {
+  font-family: "Hiragino Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.tool .tool1 {
+  font-weight: 600;
+}
+.tool .tool3 {
+  font-weight: 600;
+}
+
+.point {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.point .main-point {
+  margin: 2em 0;
+  position: relative;
+  padding: 2em 2em;
+  border-top: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+}
+.point .main-point::before,
+.point .main-point::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: calc(100% + 20px);
+  background-color: rgb(255, 255, 255);
+}
+.point .main-point::before {
+  left: 10px;
+}
+.point .main-point::after {
+  right: 10px;
+}
+.point .main-point p {
+  font-family: "Hiragino Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.point .point-text {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.point .point-text .text1 {
+  margin-bottom: 15px;
+}
+.point .point-text .text2 {
+  margin-bottom: 15px;
+}
+.point .point-text .text3 {
+  margin-bottom: 15px;
+}
+
+.main-visual {
+  text-align: center;
+}
+
+#point2 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 30px;
+}
+#point2 .main-point2 {
+  text-align: center;
+  margin: 2em 0;
+  position: relative;
+  padding: 3em 3em;
+  border-top: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+}
+#point2 .main-point2::before,
+#point2 .main-point2::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: calc(100% + 20px);
+  background-color: rgb(255, 255, 255);
+}
+#point2 .main-point2::before {
+  left: 10px;
+}
+#point2 .main-point2::after {
+  right: 10px;
+}
+#point2 .main-point2 p {
+  font-family: "Hiragino Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+#point2 .point-text {
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+#point2 .point-text .text1 {
+  margin-bottom: 20px;
+}
+#point2 .point-text .text2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .text-content .tag {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    width: 100px;
+    border: solid 1px #fff;
+  }
+  .text-content .tool {
+    font-family: "Hiragino Sans", sans-serif;
+    font-size: 10px;
+  }
+  .text-content .point {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .text-content .point .main-point {
+    margin: 1em, 1em;
+    padding: 1em 1em;
+    border-top: solid 1px rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+  }
+  .text-content .point .main-point::before,
+  .text-content .point .main-point::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 1px;
+    height: calc(100% + 20px);
+    background-color: rgb(255, 255, 255);
+  }
+  .text-content .point .main-point p {
+    font-size: 10px;
+  }
+  .text-content .point .point-text {
+    font-size: 8px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .main-visual img {
+    width: 300px;
+  }
+  #point2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #point2 .main-point2 {
+    margin: em 0;
+    padding: 1em 1em;
+    border-top: solid 1px rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+  }
+  #point2 .main-point2 p {
+    font-size: 10px;
+  }
+  #point2 .main-point2::before,
+  #point2 .main-point2::after {
+    width: 1px;
+  }
+  #point2 .point-text {
+    font-size: 8px;
+    margin-left: 30px;
+    margin-top: 45px;
+  }
+  #point2 .point-text .text1 {
+    margin-bottom: 10px;
+  }
+  #point2 .point-text .text2 {
+    margin-bottom: 10px;
+  }
+}
+.footer-box {
+  display: flex;
+}
+.footer-box .footer-img {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.footer-box .footer-flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5.375rem;
+  width: 100vw;
+}
+.footer-box .footer-flex .footer_nav {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+.footer-box .footer-flex .footer_nav .ul_list2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.footer-box .footer-flex .footer_nav .ul_list3 {
+  margin-right: 100px;
+}
+.footer-box .footer-flex .footer_nav .ul_list4 {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-box .footer-img {
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .footer-box .footer-img img {
+    width: 100px;
+  }
+  .footer-box .footer-flex {
+    margin-top: 50px;
+  }
+  .footer-box .footer-flex .footer_nav {
+    font-size: 10px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list3 {
+    margin-right: 50px;
+  }
+  .footer-box .footer-flex .footer_nav .ul_list4 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=marin.css.map */
